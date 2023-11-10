@@ -1,0 +1,1 @@
+export { default } from "D:\\workspace\\vuepress\\node_modules\\@vuepress\\plugin-pwa\\lib\\enhanceAppFile.js"
