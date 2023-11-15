@@ -7,8 +7,8 @@ Vue.component("UpgradePath", () => import("D:\\workspace\\vuepress\\docs\\.vuepr
 Vue.component("Foo-Bar", () => import("D:\\workspace\\vuepress\\docs\\.vuepress\\components\\Foo\\Bar"))
 
 Vue.component("Badge", () => import("D:\\workspace\\vuepress\\node_modules\\@vuepress\\theme-default\\global-components\\Badge"))
-Vue.component("CodeBlock", () => import("D:\\workspace\\vuepress\\node_modules\\@vuepress\\theme-default\\global-components\\CodeBlock"))
 Vue.component("CodeGroup", () => import("D:\\workspace\\vuepress\\node_modules\\@vuepress\\theme-default\\global-components\\CodeGroup"))
+Vue.component("CodeBlock", () => import("D:\\workspace\\vuepress\\node_modules\\@vuepress\\theme-default\\global-components\\CodeBlock"))
 
 
 export default {}

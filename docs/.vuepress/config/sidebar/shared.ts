@@ -73,7 +73,6 @@ export function getGuideSidebar (groupA, groupB): SidebarConfigArray {
         '接口请求',
         'typescript-as-config',
         'assets',
-        'markdown',
         'using-vue',
         'i18n',
         'deploy'
