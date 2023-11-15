@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>路由 | Quantangle Frontend</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    <link rel="icon" href="/quantangle/logo.png">
+    <link rel="manifest" href="/quantangle/manifest.json">
+    <link rel="apple-touch-icon" href="/quantangle/icons/apple-touch-icon-152x152.png">
+    <link rel="mask-icon" href="/quantangle/icons/safari-pinned-tab.svg" color="#3eaf7c">
+    <meta name="description" content="应用产品前端使用说明">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/quantangle/assets/css/0.styles.f9efd217.css" as="style"><link rel="preload" href="/quantangle/assets/js/app.a7cf1563.js" as="script"><link rel="preload" href="/quantangle/assets/js/2.90950098.js" as="script"><link rel="preload" href="/quantangle/assets/js/1.ea2d685d.js" as="script"><link rel="preload" href="/quantangle/assets/js/50.1bcc7b68.js" as="script"><link rel="preload" href="/quantangle/assets/js/23.507bacfd.js" as="script"><link rel="prefetch" href="/quantangle/assets/js/12.98315f5b.js"><link rel="prefetch" href="/quantangle/assets/js/13.8a045628.js"><link rel="prefetch" href="/quantangle/assets/js/14.ed298498.js"><link rel="prefetch" href="/quantangle/assets/js/15.872db399.js"><link rel="prefetch" href="/quantangle/assets/js/16.a891e677.js"><link rel="prefetch" href="/quantangle/assets/js/17.c376e07a.js"><link rel="prefetch" href="/quantangle/assets/js/18.b1efb883.js"><link rel="prefetch" href="/quantangle/assets/js/19.fc10665c.js"><link rel="prefetch" href="/quantangle/assets/js/20.0b22c9b7.js"><link rel="prefetch" href="/quantangle/assets/js/21.15ae91bf.js"><link rel="prefetch" href="/quantangle/assets/js/22.30c00e00.js"><link rel="prefetch" href="/quantangle/assets/js/24.8e0e2811.js"><link rel="prefetch" href="/quantangle/assets/js/25.776e2223.js"><link rel="prefetch" href="/quantangle/assets/js/26.d35f760a.js"><link rel="prefetch" href="/quantangle/assets/js/27.0add62c7.js"><link rel="prefetch" href="/quantangle/assets/js/28.aa6831a2.js"><link rel="prefetch" href="/quantangle/assets/js/29.f44bdf74.js"><link rel="prefetch" href="/quantangle/assets/js/3.24d6904f.js"><link rel="prefetch" href="/quantangle/assets/js/30.ba730fc8.js"><link rel="prefetch" href="/quantangle/assets/js/31.1690bbdd.js"><link rel="prefetch" href="/quantangle/assets/js/32.5abb1762.js"><link rel="prefetch" href="/quantangle/assets/js/33.e45d9bfe.js"><link rel="prefetch" href="/quantangle/assets/js/34.72f00e4c.js"><link rel="prefetch" href="/quantangle/assets/js/35.b500b4e1.js"><link rel="prefetch" href="/quantangle/assets/js/36.017f2eaf.js"><link rel="prefetch" href="/quantangle/assets/js/37.1c03920f.js"><link rel="prefetch" href="/quantangle/assets/js/38.1a717c26.js"><link rel="prefetch" href="/quantangle/assets/js/39.dfc6beda.js"><link rel="prefetch" href="/quantangle/assets/js/4.f959d51f.js"><link rel="prefetch" href="/quantangle/assets/js/40.da76b32f.js"><link rel="prefetch" href="/quantangle/assets/js/41.c8c8f5eb.js"><link rel="prefetch" href="/quantangle/assets/js/42.449c6c4d.js"><link rel="prefetch" href="/quantangle/assets/js/43.6ab1cf4f.js"><link rel="prefetch" href="/quantangle/assets/js/44.4fcdfec7.js"><link rel="prefetch" href="/quantangle/assets/js/45.82acfab2.js"><link rel="prefetch" href="/quantangle/assets/js/46.8e6bdd73.js"><link rel="prefetch" href="/quantangle/assets/js/47.80a07502.js"><link rel="prefetch" href="/quantangle/assets/js/48.1c6340a3.js"><link rel="prefetch" href="/quantangle/assets/js/49.2db267e4.js"><link rel="prefetch" href="/quantangle/assets/js/5.f07297d1.js"><link rel="prefetch" href="/quantangle/assets/js/51.a2a02194.js"><link rel="prefetch" href="/quantangle/assets/js/52.d6c21100.js"><link rel="prefetch" href="/quantangle/assets/js/53.58fe53ff.js"><link rel="prefetch" href="/quantangle/assets/js/54.fdeb0c9e.js"><link rel="prefetch" href="/quantangle/assets/js/55.3712ad41.js"><link rel="prefetch" href="/quantangle/assets/js/56.22071923.js"><link rel="prefetch" href="/quantangle/assets/js/57.fe0f2119.js"><link rel="prefetch" href="/quantangle/assets/js/58.073f8428.js"><link rel="prefetch" href="/quantangle/assets/js/59.3147becc.js"><link rel="prefetch" href="/quantangle/assets/js/6.89e7ee83.js"><link rel="prefetch" href="/quantangle/assets/js/60.6a14845b.js"><link rel="prefetch" href="/quantangle/assets/js/61.f8ca87fe.js"><link rel="prefetch" href="/quantangle/assets/js/62.d6849b79.js"><link rel="prefetch" href="/quantangle/assets/js/63.71772745.js"><link rel="prefetch" href="/quantangle/assets/js/64.ba4ed6c7.js"><link rel="prefetch" href="/quantangle/assets/js/65.9bb31266.js"><link rel="prefetch" href="/quantangle/assets/js/66.ae40121b.js"><link rel="prefetch" href="/quantangle/assets/js/67.336048fe.js"><link rel="prefetch" href="/quantangle/assets/js/68.ea86f539.js"><link rel="prefetch" href="/quantangle/assets/js/69.621b18b7.js"><link rel="prefetch" href="/quantangle/assets/js/7.17f64a54.js"><link rel="prefetch" href="/quantangle/assets/js/70.75f39e0d.js"><link rel="prefetch" href="/quantangle/assets/js/71.850e180a.js"><link rel="prefetch" href="/quantangle/assets/js/72.fd2398d2.js"><link rel="prefetch" href="/quantangle/assets/js/73.e089c30a.js"><link rel="prefetch" href="/quantangle/assets/js/74.4849f35e.js"><link rel="prefetch" href="/quantangle/assets/js/75.6ea2f9aa.js"><link rel="prefetch" href="/quantangle/assets/js/76.80c22578.js"><link rel="prefetch" href="/quantangle/assets/js/77.2b674f51.js"><link rel="prefetch" href="/quantangle/assets/js/78.526b1c86.js"><link rel="prefetch" href="/quantangle/assets/js/vendors~docsearch.9170ad82.js"><link rel="prefetch" href="/quantangle/assets/js/vendors~flowchart.33b28e62.js"><link rel="prefetch" href="/quantangle/assets/js/vendors~notification.160f2809.js">
+    <link rel="stylesheet" href="/quantangle/assets/css/0.styles.f9efd217.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/quantangle/" class="home-link router-link-active"><!----> <span class="site-name">Quantangle Frontend</span></a> <div class="links"><form id="search-form" role="search" class="algolia-search-wrapper search-box"><input id="algolia-search-input" class="search-query"></form> <nav class="nav-links can-hide"><div class="nav-item"><a href="/quantangle/guide/" class="nav-link router-link-active">
+  指南
+</a></div><div class="nav-item"><a href="/quantangle/config/" class="nav-link">
+  配置
+</a></div><div class="nav-item"><a href="/quantangle/plugin/" class="nav-link">
+  插件
+</a></div><div class="nav-item"><a href="/quantangle/theme/" class="nav-link">
+  主题
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="了解更多" class="dropdown-title"><span class="title">了解更多</span> <span class="arrow down"></span></button> <button type="button" aria-label="了解更多" class="mobile-dropdown-title"><span class="title">了解更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          API
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/quantangle/api/cli.html" class="nav-link">
+  CLI
+</a></li><li class="dropdown-subitem"><a href="/quantangle/api/node.html" class="nav-link">
+  Node
+</a></li></ul></li><li class="dropdown-item"><h4>
+          开发指南
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/quantangle/miscellaneous/local-development.html" class="nav-link">
+  本地开发
+</a></li><li class="dropdown-subitem"><a href="/quantangle/miscellaneous/design-concepts.html" class="nav-link">
+  设计理念
+</a></li><li class="dropdown-subitem"><a href="/quantangle/faq/" class="nav-link">
+  FAQ
+</a></li><li class="dropdown-subitem"><a href="/quantangle/miscellaneous/glossary.html" class="nav-link">
+  术语
+</a></li></ul></li><li class="dropdown-item"><h4>
+          其他
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/quantangle/miscellaneous/migration-guide.html" class="nav-link">
+  从 0.x 迁移
+</a></li><li class="dropdown-subitem"><a href="https://github.com/vuejs/vuepress/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Changelog
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></li></ul></div></div> <a href="https://github.com/vuejs/vuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/quantangle/guide/" class="nav-link router-link-active">
+  指南
+</a></div><div class="nav-item"><a href="/quantangle/config/" class="nav-link">
+  配置
+</a></div><div class="nav-item"><a href="/quantangle/plugin/" class="nav-link">
+  插件
+</a></div><div class="nav-item"><a href="/quantangle/theme/" class="nav-link">
+  主题
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="了解更多" class="dropdown-title"><span class="title">了解更多</span> <span class="arrow down"></span></button> <button type="button" aria-label="了解更多" class="mobile-dropdown-title"><span class="title">了解更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          API
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/quantangle/api/cli.html" class="nav-link">
+  CLI
+</a></li><li class="dropdown-subitem"><a href="/quantangle/api/node.html" class="nav-link">
+  Node
+</a></li></ul></li><li class="dropdown-item"><h4>
+          开发指南
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/quantangle/miscellaneous/local-development.html" class="nav-link">
+  本地开发
+</a></li><li class="dropdown-subitem"><a href="/quantangle/miscellaneous/design-concepts.html" class="nav-link">
+  设计理念
+</a></li><li class="dropdown-subitem"><a href="/quantangle/faq/" class="nav-link">
+  FAQ
+</a></li><li class="dropdown-subitem"><a href="/quantangle/miscellaneous/glossary.html" class="nav-link">
+  术语
+</a></li></ul></li><li class="dropdown-item"><h4>
+          其他
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/quantangle/miscellaneous/migration-guide.html" class="nav-link">
+  从 0.x 迁移
+</a></li><li class="dropdown-subitem"><a href="https://github.com/vuejs/vuepress/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Changelog
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></li></ul></div></div> <a href="https://github.com/vuejs/vuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav> <div class="carbon-ads"></div> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>指南</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/quantangle/guide/" aria-current="page" class="sidebar-link">介绍</a></li><li><a href="/quantangle/guide/路由.html" class="active sidebar-link">路由</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/quantangle/guide/路由.html#路由创建" class="sidebar-link">路由创建</a></li><li class="sidebar-sub-header"><a href="/quantangle/guide/路由.html#路由守卫" class="sidebar-link">路由守卫</a></li><li class="sidebar-sub-header"><a href="/quantangle/guide/路由.html#初始化操作" class="sidebar-link">初始化操作</a></li></ul></li><li><a href="/quantangle/guide/登录.html" class="sidebar-link">登录</a></li><li><a href="/quantangle/guide/接口请求.html" class="sidebar-link">Apollo</a></li><li><a href="/quantangle/guide/typescript-as-config.html" class="sidebar-link">TypeScript 配置</a></li><li><a href="/quantangle/guide/assets.html" class="sidebar-link">静态资源</a></li><li><a href="/quantangle/guide/using-vue.html" class="sidebar-link">在 Markdown 中使用 Vue</a></li><li><a href="/quantangle/guide/i18n.html" class="sidebar-link">多语言支持</a></li><li><a href="/quantangle/guide/deploy.html" class="sidebar-link">部署</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>深入</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/quantangle/guide/frontmatter.html" class="sidebar-link">Front Matter</a></li><li><a href="/quantangle/guide/permalinks.html" class="sidebar-link">永久链接</a></li><li><a href="/quantangle/guide/markdown-slot.html" class="sidebar-link">Markdown 插槽</a></li><li><a href="/quantangle/guide/global-computed.html" class="sidebar-link">全局计算属性</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="路由"><a href="#路由" class="header-anchor">#</a> 路由</h1> <p>打开系统链接，前端文件激活后第一步就会进入路由。让我们从路由开始，一步一步看看技术实现的细节。</p> <h2 id="路由创建"><a href="#路由创建" class="header-anchor">#</a> 路由创建</h2> <p>由于有路由权限控制的需求，我们将系统里的无需权限控制的路由放入路由初始化中，而将需要权限控制的路由单独放入集合。</p> <pre class="vue-container"><code><p>.
+├── router
+│   ├── modules <em>(<strong>基础路由</strong>)</em>
+│   └── permissionRoutes <em>(<strong>权限控制路由</strong>)</em>
+|       ├── 01-routeName.js
+|       ├── 02-routeName.js
+│       └── ...
+└── package.json</p>
+</code></pre><p>利用webpack提供的<code>require.context</code>函数，自动引入指定目录下的所有文件。路由文件的数字前缀，便是为了在自动引入的逻辑下控制文件的顺序。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">let</span> permissionRoutes <span class="token operator">=</span> require<span class="token punctuation">.</span><span class="token function">context</span><span class="token punctuation">(</span><span class="token string">'./permissionRoutes'</span><span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\.js$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> constantRoutes <span class="token operator">=</span> permissionRoutes<span class="token punctuation">.</span><span class="token function">keys</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token parameter">item</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+   <span class="token keyword">return</span> <span class="token function">permissionRoutes</span><span class="token punctuation">(</span>item<span class="token punctuation">)</span><span class="token punctuation">.</span>default<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="路由守卫"><a href="#路由守卫" class="header-anchor">#</a> 路由守卫</h2> <p>动态拼接路由的核心：<code>router.addRoutes</code></p> <p>利用路由守卫对所有路由的拦截特性，我们可以在这里对页面是否需要<a href="/quantangle/guide/登录.html">登录</a>进行限制。</p> <p>用户的路由权限，需要<a href="/quantangle/guide/登录.html">登录</a>后根据接口进行判断。</p> <div class="language-js extra-class"><pre class="language-js"><code>router<span class="token punctuation">.</span><span class="token function">beforeEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">to<span class="token punctuation">,</span> from<span class="token punctuation">,</span> next</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+   <span class="token operator">...</span>
+   <span class="token keyword">const</span> notAuth <span class="token operator">=</span> to<span class="token punctuation">.</span>matched<span class="token punctuation">.</span><span class="token function">some</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">record</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> record<span class="token punctuation">.</span>meta<span class="token punctuation">.</span>notAuth<span class="token punctuation">)</span><span class="token punctuation">;</span>
+   <span class="token keyword">if</span> <span class="token punctuation">(</span>notAuth<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+   <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      <span class="token keyword">let</span> middle <span class="token operator">=</span> <span class="token function">vuexOidcCreateRouterMiddleware</span><span class="token punctuation">(</span>store<span class="token punctuation">,</span> <span class="token string">&quot;oidcStore&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token function">middle</span><span class="token punctuation">(</span>to<span class="token punctuation">,</span> from<span class="token punctuation">,</span> <span class="token keyword">async</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+         <span class="token operator">...</span>
+         <span class="token comment">// 获取maker路由</span>
+         store<span class="token punctuation">.</span><span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token string">'permission/getRoutes'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">result</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+            <span class="token keyword">let</span> newRoutes<span class="token operator">=</span>result<span class="token punctuation">;</span>
+            <span class="token comment">// 注意，404路由需要放在最末尾</span>
+            <span class="token keyword">let</span> error_404<span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">'*'</span><span class="token punctuation">,</span> <span class="token literal-property property">redirect</span><span class="token operator">:</span> <span class="token string">'/error/404'</span><span class="token punctuation">,</span> <span class="token literal-property property">hidden</span><span class="token operator">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+            <span class="token keyword">if</span><span class="token punctuation">(</span>newRoutes<span class="token punctuation">)</span><span class="token punctuation">{</span>
+               newRoutes<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>error_404<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+               newRoutes<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token punctuation">[</span>error_404<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            router<span class="token punctuation">.</span><span class="token function">addRoutes</span><span class="token punctuation">(</span>newRoutes<span class="token punctuation">)</span>
+            <span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token operator">...</span>to<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">// 首次addRoutes之后当前路由可能仍未匹配</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>to<span class="token punctuation">.</span>matched<span class="token punctuation">.</span>length <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+               router<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>to<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+         <span class="token punctuation">}</span><span class="token punctuation">)</span>
+         <span class="token operator">...</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+   <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="初始化操作"><a href="#初始化操作" class="header-anchor">#</a> 初始化操作</h2> <p>我们把初始化操作放到路由守卫里面，利用vuex，系统只会在第一次进入的时候执行初始化操作。</p> <p>需要说明的两个初始化操作：</p> <ul><li>系统设置。
+由于系统设置会对页面展示的效果产生影响，所以在页面渲染成功之前需要读取系统设置。</li> <li>用户信息。
+虽然从sso返回值中可以获取到用户基础信息，但其中的name信息并不可靠，所以需要主动从builtin接口获取用户信息。</li></ul></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/vuejs/vuepress/edit/master/packages/docs/docs/guide/路由.md" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/quantangle/guide/" class="prev router-link-active">
+        介绍
+      </a></span> <span class="next"><a href="/quantangle/guide/登录.html">
+        登录
+      </a>
+      →
+    </span></p></div> <div class="bsa-cpc-wrapper"><div class="bsa-cpc"></div></div></main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/quantangle/assets/js/app.a7cf1563.js" defer></script><script src="/quantangle/assets/js/2.90950098.js" defer></script><script src="/quantangle/assets/js/1.ea2d685d.js" defer></script><script src="/quantangle/assets/js/50.1bcc7b68.js" defer></script><script src="/quantangle/assets/js/23.507bacfd.js" defer></script>
+  </body>
+</html>
