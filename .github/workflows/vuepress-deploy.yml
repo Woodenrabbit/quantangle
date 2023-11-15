@@ -12,6 +12,6 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: Woodenrabbit/quantangle
-        TARGET_BRANCH: master
+        TARGET_BRANCH: gh_pages
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: docs/.vuepress/dist
