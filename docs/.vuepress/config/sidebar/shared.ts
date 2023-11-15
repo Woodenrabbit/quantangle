@@ -70,7 +70,7 @@ export function getGuideSidebar (groupA, groupB): SidebarConfigArray {
         '',
         '路由',
         '登录',
-        'basic-config',
+        '接口请求',
         'typescript-as-config',
         'assets',
         'markdown',
