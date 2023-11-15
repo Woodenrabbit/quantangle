@@ -6,7 +6,7 @@ import {
 
 export default defineConfig(ctx => ({
   theme: '@vuepress/vue',
-  dest: '../../vuepress',
+  dest: 'docs/.vuepress/dist',
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
